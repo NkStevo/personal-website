@@ -1,0 +1,105 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.navbar {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.carousel-inner {
+  background-color: #000000;
+}
+
+.carousel-caption {
+  opacity: 1.0;
+}
+
+.slide-img {
+  background-image: url(../img/grad_photo.jpg);
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 600px;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  -webkit-background-position: center;
+  -moz-background-position: center;
+  -o-background-position: center;
+  background-position: center;
+
+  -webkit-background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -o-background-attachment: fixed;
+  background-attachment: fixed;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.container-info {
+  margin-top: 1.5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: lighter;
+  font-size: 125%;
+  text-align: center;
+}
+
+.col-md-7 {
+  display:inline-block;
+}
+
+.about-img {
+  width: 50%;
+  height: auto;
+  float:inherit;
+  margin-bottom: 3%;
+}
+
+.list-group {
+  margin-bottom: 5%;
+}
+
+.progress {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa {
+  padding-left: 60%;
+  padding-right: 60%;
+}
