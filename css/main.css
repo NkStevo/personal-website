@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -67,6 +71,13 @@
   text-align: center;
 }
 
+:target::before {
+  content: "";
+  display: block;
+  height: 60px; /* fixed header height*/
+  margin: -60px 0 0; /* negative fixed header height */
+}
+
 .col-md-7 {
   display:inline-block;
 }
@@ -87,19 +98,6 @@
   margin-bottom: 3%;
 }
 
-.fa-linkedin {
-  color: white;
-}
-
-.fa-twitter {
-  color: white;
-}
-
-.fa-github {
-  color: white;
-}
-
 .fa {
-  padding-left: 60%;
-  padding-right: 60%;
+  color: white;
 }

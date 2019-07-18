@@ -13,9 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
     <title>Steve Nkuranga</title>
+
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-lg">
+  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
+    <nav id="top-navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-lg">
       <a class="navbar-brand" href="#">Steve Nkuranga</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,13 +36,17 @@
             <a class="nav-link" href="#skills">Skills</a>
           </li>
         </ul>
-        <ul class="nav navbar-nav ml-auto icon-bar">
-          <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-          <li><a href="#"><i class="fa fa-github fa-lg"></i></a></li>
+      </div>
+      <div class="d-flex flex-row order-2 order-lg-3">
+        <ul class="navbar-nav flex-row">
+            <li class="nav-item"><a class="nav-link px-2" href="mailto:steve.nkuranga@gmail.com"><span class="fa fa-envelope"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="https://www.linkedin.com/in/steve-nkuranga-613b91a1"><span class="fa fa-linkedin"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="https://github.com/nkstevo"><span class="fa fa-github"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="https://twitter.com/SteveNkuranga?lang=en"><span class="fa fa-twitter"></span></a></li>
         </ul>
       </div>
     </nav>
+
 
     <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
